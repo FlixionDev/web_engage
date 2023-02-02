@@ -1,0 +1,95 @@
+#root {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.postImage {
+    width: 100%;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+
+}
+
+.formDiv h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formDiv h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.formDiv input {
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    padding: 7px 0;
+}
+
+.formDiv .submitBtn {
+    width: 100%;
+    font-size: 20px;
+    padding: 7px 0;
+    background-color: black;
+    color: white;
+}
+
+#innerFormdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+#innerFormdiv input {
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-top: 5px;
+}
+
+#innerFormdiv select {
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+#emailSpan {
+    background: transparent;
+
+    text-align: right;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: white inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+#mobSpan{
+    width: 302px;
+}
+@media all and (max-width: 900px) {
+    #root {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
