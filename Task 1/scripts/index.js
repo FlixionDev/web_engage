@@ -7,14 +7,16 @@ function surveyFunc() {
     let espan = document.getElementById("emailSpan");
     
     //console.log(email +"-"+mobile)
-    if (email !== "" && mobile.length === 10) {
+    if (email !== "" && mobile.length == 10) {
         let obj = {
             email,
             country,
             mobile
         }
-        mspan.innerText = "";
-        espan.innerText = "";
+        mspan.innerText = "Required field";
+        espan.innerText = "Required field";
+        espan.style.opacity = "0.0";
+        mspan.style.opacity = "0.0";
         localStorage.setItem("form", JSON.stringify(obj));
         location.href = "./thankyou.html"
     } else if (email == "" && mobile == "") {
@@ -32,8 +34,8 @@ function surveyFunc() {
         mspan.innerText = "Required field";
         mspan.style.color = "red";
         
-    }else if(email == "" && mobile != ""){
-        mspan.innerHTML = "Required field";
+    }else if(email == "" && mobile.length != 10){
+        mspan.innerHTML = "Invalid number";
         espan.innerText = "Required field";
         espan.style.color = "red";
         espan.style.width = "50%";
@@ -43,8 +45,9 @@ function surveyFunc() {
         mspan.innerText = "Invalid number";
         mspan.style.color = "red";
         mspan.style.opacity="1"
+        espan.style.opacity="1"
     }else if(mobile.length!=10 && email != ""){
-        espan.innerText = "Required field";
+        //espan.innerText = "Required field";
         espan.style.color = "red";
         espan.style.width = "50%";
         mspan.innerText = "Invalid number";
