@@ -13,7 +13,8 @@ function surveyFunc() {
             country,
             mobile
         }
-        console.log(obj)
+        mspan.innerText = "";
+        espan.innerText = "";
         localStorage.setItem("form", JSON.stringify(obj));
         location.href = "./thankyou.html"
     } else if (email == "" && mobile == "") {
