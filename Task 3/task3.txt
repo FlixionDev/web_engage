@@ -1,0 +1,17 @@
+1. What will be your approach to solving this issue? Explain your strategy and approach to this.
+Ans:- As i know that task 1 is a low priority work and there is no due data given to me. I simply ask extension for task 2 and for task 1 I inform and ask for leave to manager that there is emergency in my family due to i am available. If i am available then i start working on the task.
+
+
+2. How will you inform the 2 separate account managers of both customers about your approach? Write an internal message informing Manoj (Account manager for Task 1) & Ravi (Account Manager for Task 2) about your respective approach. 
+Ans:- First, I will inform through call and through mail. 
+      About approach of informing to Manoj(task 1):- Hello Manoj sir, Task you have given to me .I am not able to complete because of family emergency due to which i am not available next 3 days as task you have given is not having due date after 3 days will definetely  to try to complete as soon as possible.
+      About approach of informing to Ravi(task 1):- Hello Ravi sir, Task you have given to me .I am not able to complete because of family emergency due to which i am not available next 3 days i am requesting is possible please give me extension and i will try to do as soon as possible.
+
+3.How will you communicate the delay of additional 3 days to the customer? (Write an email to the customer informing them about this).
+Ans:- Dear customer, 
+                    We reqret to inform you that that task you have given to us. We are not able to complete on time because of our engineer is not available due to some issue. 
+                    We will complete to task within 3 days and we are trying to do as soon as possible.
+
+                    Sorry for the inconvenience cause by us.
+                                                                                                With Regards,
+                                                                                                Team Web Engage
